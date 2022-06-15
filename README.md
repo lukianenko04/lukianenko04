@@ -1,16 +1,40 @@
-### Hi there 👋
+```php
+<?php
 
-<!--
-**xadjek/xadjek** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+namespace EvhenLukianenko;
 
-Here are some ideas to get you started:
+class About extends Me
+{
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'Praxis',
+                'position' => 'PHP Developer'         
+            ]
+        ];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Vuejs::class,
+            Laravel::class,
+            Yii2::class,
+            MySQL::class,
+            MongoDB::class,
+            HTML::class,
+            CSS::class,
+            Linux::class,
+            Aws::class,
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'To learn ReactJS and contribute to open source.';
+    }
+}
+```
