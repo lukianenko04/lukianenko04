@@ -10,7 +10,8 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'Praxis',
-                'position' => 'PHP Developer'         
+                'position' => 'Software Developer',
+                'period' => 'January 2018 – …'         
             ]
         ];
     }
@@ -18,23 +19,29 @@ class About extends Me
     public function getDailyKnowledge(): array
     {
         return [
-            Php::class,
-            Javascript::class,
-            Vuejs::class,
+            PHP::class,
+            AWS::class,
+            YII2::class,
             Laravel::class,
-            Yii2::class,
             MySQL::class,
             MongoDB::class,
-            HTML::class,
-            CSS::class,
             Linux::class,
-            Aws::class,
+            Docker::class,
+            Javascript::class,
+            Vuejs::class,
+            HTML::class,
+            CSS::class,  
         ];
+    }
+    
+    public function getGeneralWorkExperience(): string
+    {
+        return '>8 years.';
     }
 
     public function getFutureGoal(): string
     {
-        return 'To learn ReactJS and contribute to open source.';
+        return 'To learn ReactJS and deepen my knowledge in building high-load applications.';
     }
 }
 ```
