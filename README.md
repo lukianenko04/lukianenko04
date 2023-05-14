@@ -10,8 +10,8 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'Praxis',
-                'position' => 'Software Developer',
-                'period' => 'January 2018 – …'         
+                'position' => 'Senior Software Engineer',
+                'period' => 'May 2022 – …'         
             ]
         ];
     }
@@ -22,26 +22,23 @@ class About extends Me
             PHP::class,
             AWS::class,
             YII2::class,
-            Laravel::class,
             MySQL::class,
-            MongoDB::class,
-            Linux::class,
+            MongoDB::class
             Docker::class,
-            Javascript::class,
-            Vuejs::class,
-            HTML::class,
-            CSS::class,  
+            JavaScript::class,
+            OpenAPI::class,
+            Software Architecture::class
         ];
     }
     
     public function getGeneralWorkExperience(): string
     {
-        return '>8 years.';
+        return '>8 years';
     }
 
     public function getFutureGoal(): string
     {
-        return 'To learn ReactJS and deepen my knowledge in building high-load applications.';
+        return 'Deepen my knowledge in building high-load applications.';
     }
 }
 ```
