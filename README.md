@@ -9,8 +9,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Praxis',
-                'position' => 'Senior Software Engineer',
+                'company' => 'NDA',
+                'position' => 'Senior Software Engineer | Team Lead',
                 'period' => 'May 2022 – …'         
             ]
         ];
@@ -22,10 +22,12 @@ class About extends Me
             PHP::class,
             AWS::class,
             YII2::class,
+            Laravel::class,
             MySQL::class,
             MongoDB::class
             Docker::class,
             JavaScript::class,
+            Linux::class,
             OpenAPI::class,
             Software Architecture::class
         ];
