@@ -1,7 +1,7 @@
 ```php
 <?php
 
-namespace EvhenLukianenko;
+namespace YevhenLukianenko;
 
 class About extends Me
 {
@@ -10,8 +10,8 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'NDA',
-                'position' => 'Senior Software Engineer | Team Lead',
-                'period' => 'May 2022 – …'         
+                'position' => 'Senior Software Engineer',
+                'period' => 'Jan 2018 – …'         
             ]
         ];
     }
@@ -20,8 +20,9 @@ class About extends Me
     {
         return [
             PHP::class,
+            Node.js::class,
             AWS::class,
-            YII2::class,
+            Yii2::class,
             Laravel::class,
             MySQL::class,
             MongoDB::class
@@ -35,7 +36,7 @@ class About extends Me
     
     public function getGeneralWorkExperience(): string
     {
-        return '>8 years';
+        return '>9 years';
     }
 
     public function getFutureGoal(): string
