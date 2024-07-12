@@ -20,16 +20,17 @@ class About extends Me
     {
         return [
             PHP::class,
+            AWS{Lambda,SQS,DynamoDB,SNS,S3,etc}::class,
             Node.js::class,
-            AWS::class,
+            TypeScript::class,
+            JavaScript::class,
             Yii2::class,
             Laravel::class,
             MySQL::class,
             MongoDB::class
             Docker::class,
-            JavaScript::class,
+            Jenkins::class,
             Linux::class,
-            OpenAPI::class,
             Software Architecture::class
         ];
     }
