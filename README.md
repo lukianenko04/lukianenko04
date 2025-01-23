@@ -20,24 +20,24 @@ class About extends Me
     {
         return [
             PHP::class,
-            AWS{Lambda,SQS,DynamoDB,SNS,S3,etc}::class,
+            AWS Services::class,
             Node.js::class,
             TypeScript::class,
             JavaScript::class,
             Yii2::class,
-            Laravel::class,
             MySQL::class,
             MongoDB::class
             Docker::class,
             Jenkins::class,
             Linux::class,
-            Software Architecture::class
+            Software Architecture::class,
+            Web Security::class
         ];
     }
     
     public function getGeneralWorkExperience(): string
     {
-        return '>9 years';
+        return '>10 years';
     }
 
     public function getFutureGoal(): string
