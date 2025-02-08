@@ -9,13 +9,13 @@ Hey there, I'm Yevhen!
 
    </div>
 
-### About Me :
+### About Me:
 
-Software Engineer with more than 10 years of experience in software development. I like to develop web applications using PHP, Node.JS and AWS services.
+I am Software Engineer with more than 10 years of experience in software development. I'm passionate about PHP, Node.JS, AWS and web development.
 <br>Love Opensource and always ready to contribute to the community.
 
 
-### Languages :
+### Languages:
 
 <div style="display: flex; align-items: flex-start; align: center">
 <table  align="center">
@@ -33,7 +33,7 @@ Software Engineer with more than 10 years of experience in software development.
 </table>
 </div>
 
-### My stack and tools :
+### My stack and tools:
 
 <div style="display: flex; align-items: flex-start; align: center">
     <table align="center">
