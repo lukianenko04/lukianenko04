@@ -1,48 +1,117 @@
-```php
-<?php
+<div id="header" align="center">
 
-namespace YevhenLukianenko;
+<img src="./assets/github.gif" width="100"/>
 
-class About extends Me
-{
-    public function getCurrentWorkplace(): array
-    {
-        return [
-            'workplace' => [
-                'company' => 'NDA',
-                'position' => 'Senior Software Engineer',
-                'period' => 'Jan 2018 – …'         
-            ]
-        ];
-    }
+<h1>
+Hey there, I'm Yevhen!
+<img src="./assets/giphy.gif" width="30px" alt="GIF">
+</h1>
 
-    public function getDailyKnowledge(): array
-    {
-        return [
-            PHP::class,
-            AWS Services::class,
-            Node.js::class,
-            TypeScript::class,
-            JavaScript::class,
-            Yii2::class,
-            MySQL::class,
-            MongoDB::class
-            Docker::class,
-            Jenkins::class,
-            Linux::class,
-            Software Architecture::class,
-            Web Security::class
-        ];
-    }
-    
-    public function getGeneralWorkExperience(): string
-    {
-        return '>10 years';
-    }
+   </div>
 
-    public function getFutureGoal(): string
-    {
-        return 'Deepen my knowledge in building high-load applications.';
-    }
-}
-```
+### About Me :
+
+Software Engineer. I like to develop web applications using PHP, Node.JS and AWS services.
+Love Opensource and always ready to contribute to the community.
+More than 10 years of experience in software development.
+
+### Languages :
+
+<div style="display: flex; align-items: flex-start; align: center">
+<table  align="center">
+  <tr>
+
+        🇺🇦 Ukrainian - Native
+
+  </tr>
+
+  <tr>
+
+        🇬🇧 English - Pre-Intermediate
+
+  </tr>
+</table>
+</div>
+
+### My stack and tools :
+
+<div style="display: flex; align-items: flex-start; align: center">
+    <table align="center">
+      <tr>
+        <td align="center" width="88">
+            <img src="images/aws.svg" alt="AWS" width="44" height="44"/>
+            <br>AWS
+        </td>
+        <td align="center" width="88">
+            <img src="./images/php.svg" alt="PHP" width="44" height="44"/>
+            <br>PHP
+        </td>
+        <td align="center" width="88">
+            <img src="./images/yii.svg" alt="YII2" width="44" height="44"/>
+            <br>Yii2
+        </td>
+        <td align="center" width="88">
+            <img src="./images/nodejs.svg" alt="Node.js" width="44" height="44"/>
+            <br>Node.js
+        </td>
+        <td align="center" width="88">
+            <img src="images/javascript.svg" alt="JS" width="44" height="44"/>
+            <br>JavaScript
+        </td>
+        <td align="center" width="88">
+            <img src="images/typescript.svg" alt="TS" width="44" height="44"/>
+            <br>TypeScript
+        </td>
+        <td align="center" width="88">
+           <img src="images/sql.svg" alt="SQL" width="44" height="44"/>
+           <br>SQL
+        </td>
+        <td align="center" width="88">
+            <img src="./images/mysql.svg" alt="Mysql" width="44" height="44"/>
+            <br>Mysql
+        </td>
+        <td align="center" width="88">
+            <img src="./images/mongodb.svg" alt="MongoDB" width="44" height="44"/>
+            <br>MongoDB
+        </td>
+      </tr>
+      <tr>
+        <td align="center"  width="88">
+            <img src="images/html5.svg" alt="HTML5" width="44" height="44"/>
+            <br>HTML5
+        </td>
+        <td align="center" width="88">
+            <img src="images/css3.svg" alt="CSS3" width="44" height="44"/>
+            <br>CSS3
+        </td>
+        <td align="center" width="88">
+            <img src="./images/git.svg" alt="Git" width="44" height="44"/>
+            <br>GIT
+        </td>
+        <td align="center" width="88"> 
+            <img src="./images/jenkins.svg" alt="Jenkins" width="44" height="44"/>
+            <br>Jenkins
+        </td>
+        <td align="center"  width="88">
+            <img src="./images/linux.svg" alt="Linux" width="44" height="44"/>
+            <br>Linux
+        </td>
+        <td align="center" width="88">
+            <img src="./images/docker.svg" alt="Docker" width="44" height="44"/>
+            <br>Docker
+        </td>
+        <td align="center" width="88">
+            <img src="images/postman.svg" alt="Postman" width="44" height="44"/>
+            <br>Postman
+        </td>
+        <td align="center" width="88">
+            <img src="images/phpstorm.svg" alt="PHPStorm" width="44" height="44"/>
+            <br>PHPStorm
+        </td>
+        <td align="center" width="88">
+            <img src="images/vscode.svg" alt="Visual Studio Code" width="44" height="44"/>
+            <br>VSCode
+         </td>
+      </tr>
+    </table>
+</div>
