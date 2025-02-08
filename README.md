@@ -11,9 +11,9 @@ Hey there, I'm Yevhen!
 
 ### About Me :
 
-Software Engineer. I like to develop web applications using PHP, Node.JS and AWS services.
-Love Opensource and always ready to contribute to the community.
-More than 10 years of experience in software development.
+Software Engineer with more than 10 years of experience in software development. I like to develop web applications using PHP, Node.JS and AWS services.
+<br>Love Opensource and always ready to contribute to the community.
+
 
 ### Languages :
 
