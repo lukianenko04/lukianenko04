@@ -77,6 +77,10 @@ Software Engineer with more than 10 years of experience in software development.
       </tr>
       <tr>
         <td align="center"  width="88">
+            <img src="images/bootstrap.svg" alt="Bootstrap" width="44" height="44"/>
+            <br>Bootstrap
+        </td>
+        <td align="center"  width="88">
             <img src="images/html5.svg" alt="HTML5" width="44" height="44"/>
             <br>HTML5
         </td>
@@ -108,10 +112,6 @@ Software Engineer with more than 10 years of experience in software development.
             <img src="images/phpstorm.svg" alt="PHPStorm" width="44" height="44"/>
             <br>PHPStorm
         </td>
-        <td align="center" width="88">
-            <img src="images/vscode.svg" alt="Visual Studio Code" width="44" height="44"/>
-            <br>VSCode
-         </td>
       </tr>
     </table>
 </div>
