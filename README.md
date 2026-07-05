@@ -11,8 +11,7 @@ Hey there, I'm Yevhen!
 
 ### About Me:
 
-I am Software Engineer with more than 10 years of experience in software development. I'm passionate about PHP, Node.JS, AWS and web development.
-<br>Love Opensource and always ready to contribute to the community.
+I am Software Engineer with more than 11 years of experience in software development. I'm passionate about PHP, Node.JS, AWS, AI tools and web development.
 
 
 ### Languages:
@@ -24,10 +23,15 @@ I am Software Engineer with more than 10 years of experience in software develop
         🇺🇦 Ukrainian - Native
 
   </tr>
+  <tr>
+
+        🇷🇺 Russian - Native
+
+  </tr>
 
   <tr>
 
-        🇬🇧 English - Pre-Intermediate
+        🇬🇧 English - Intermediate
 
   </tr>
 </table>
@@ -111,6 +115,20 @@ I am Software Engineer with more than 10 years of experience in software develop
         <td align="center" width="88">
             <img src="images/phpstorm.svg" alt="PHPStorm" width="44" height="44"/>
             <br>PHPStorm
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="88">
+            <img src="images/githubcopilot.svg" alt="GitHub Copilot" width="44" height="44"/>
+            <br>Copilot
+        </td>
+        <td align="center" width="88">
+            <img src="images/claude.svg" alt="Claude Code" width="44" height="44"/>
+            <br>Claude Code
+        </td>
+        <td align="center" width="88">
+            <img src="images/googlegemini.svg" alt="Gemini" width="44" height="44"/>
+            <br>Gemini
         </td>
       </tr>
     </table>
